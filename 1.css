@@ -1,0 +1,58 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navbar img {
+  width: 165px;
+  height: 66px;
+}
+
+.navbar-nav {
+  padding: 1% 6%;
+  text-align: center;
+}
+.nav-item {
+  width: 100px;
+}
+.contact {
+  color: white;
+  margin-right: 60px;
+}
+
+.contact t {
+  color: white;
+}
+.contact i {
+  color: white;
+}
+@media (max-width: 1200px) {
+  .contact t {
+    display: none;
+  }
+  .contact i {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .container1-fluid {
+    height: 300px;
+    width: 60%;
+  }
+}
+
+.container1-fluid {
+  height: 600px;
+  width: 100%;
+  background-image: url(Images/hotel.jpg);
+  background-size: cover;
+  background-position: no-repeat;
+  background-attachment: fixed;
+}
+
+.carousel-inner img {
+  height: 400px;
+  width: 500px ;
+  margin-left: 45%;
+}

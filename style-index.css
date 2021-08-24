@@ -1,0 +1,122 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  background-color: gray;
+}
+
+.navbar-nav {
+  margin-left: 10%;
+}
+img {
+  margin-right: 10%;
+}
+
+.carousel-caption {
+  right: 20%;
+  top: 3%;
+  left: 0%;
+  width: 30%;
+  color: #fff;
+  position: absolute;
+  z-index: 0;
+}
+
+.text-block {
+  background: linear-gradient(rgba(71, 69, 69, 0.5), rgba(71, 69, 69, 0.8));
+}
+
+#learn_more {
+  color: white;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.card-group {
+  width: 96%;
+}
+
+.card {
+  border: 2px solid transparent;
+
+  border-radius: 3px;
+}
+
+.card img {
+  object-fit: cover;
+  width: 260px;
+  height: 250px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.footer {
+  background-color: gray;
+  height: auto;
+}
+.footer ul {
+  margin-top: 1%;
+}
+.social-links {
+  margin-left: 70%;
+  margin-top: -59px;
+}
+
+@media (max-width: 360px) {
+  .social-links {
+    margin-left: 1%;
+    margin-top: 20px;
+  }
+}
+.social-links i {
+  width: 40px;
+  size: 10px;
+}
+.social-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 29px;
+}
+
+.social-links a:hover {
+  color: white;
+}
+.footer p {
+  margin-left: 17%;
+  margin-top: -45px;
+  font-size: 18px;
+}
+.container p {
+  text-align: center;
+  margin-top: 2%;
+}
+.text-box h2 {
+  text-align: center;
+  position: relative;
+  top: 16%;
+  margin-bottom: 54px;
+}
+
+.card-spiritual img {
+  object-fit: cover;
+  width: 524px;
+  height: 463px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.container video {
+  width: 100%;
+  height: auto;
+}
